@@ -1,0 +1,18 @@
+Task
+Dynamically typed variables
+Which is more: infinity or two infinities?
+Create a variable named infinity and set it to Infinity.
+Create a variable named doubleInfinity and assign it twice the value of infinity.
+Create a variable isEqual and assign it the result of the comparison (strict equality) between infinity and doubleInfinity.
+Create a variable typeOfIsEqual and assign it a value of type isEqual.
+Let's give an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+const zero = 0;
+const doubleZero = zero * 2;
+const isZeroEqualsToDoubleZero = zero === doubleZero; // true
+const type = typeof (isZeroEqualsToDoubleZero); // "boolean"
+
+Solution
+const infinity = Infinity;
+const doubleInfinity = Infinity * 2;
+const isEqual = Infinity == doubleInfinity;
+const typeOfIsEqual = typeof (isEqual);
