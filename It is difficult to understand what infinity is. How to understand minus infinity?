@@ -1,0 +1,7 @@
+Task
+It is difficult to understand what infinity is. How to understand minus infinity?
+Create a variable inf and assign it the value of the expression with the value "-infinity". To do this, the expression must contain the result of dividing an arbitrary negative number by zero.
+
+Solution
+const int = -5;
+const inf = int / 0;
