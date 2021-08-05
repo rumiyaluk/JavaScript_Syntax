@@ -1,0 +1,13 @@
+Task
+The side of the square is given. Write a program that calculates its perimeter p and area s.
+Create a variable named a and assign an arbitrary positive number to it. Create a variable p and assign it the value of the expression to calculate the perimeter. 
+Create a variable s and assign it the value of the area expression.
+Here is an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+Example
+const number = 4;
+const square = number ** 2;
+
+Solution
+const a = 5;
+const p = a * 4;
+const s = a ** 2;
