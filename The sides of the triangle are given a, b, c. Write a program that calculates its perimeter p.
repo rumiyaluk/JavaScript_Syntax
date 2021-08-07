@@ -1,0 +1,10 @@
+Task
+The sides of the triangle are given a, b, c. Write a program that calculates its perimeter p.
+Create variables named a, b, c and assign them the values of arbitrary positive numbers. 
+Create a variable p and assign it the value of the expression to calculate the perimeter of a triangle.
+
+Solution
+const a = 2;
+const b = 4;
+const c = 6;
+const p = a + b + c;
