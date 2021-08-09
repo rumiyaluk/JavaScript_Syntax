@@ -1,0 +1,10 @@
+Task
+Create a variable named question and assign it the How do you do? Value. 
+Create a variable length and assign it the length of the string question.
+Let's give an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+const name = 'Jonh';
+const lengthName = name.length;
+
+Solution
+const question = 'How do you do?';
+const length = question.length;
