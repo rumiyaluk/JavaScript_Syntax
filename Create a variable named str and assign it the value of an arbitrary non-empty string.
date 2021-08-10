@@ -1,0 +1,8 @@
+Task
+Create a variable named str and assign it the value of an arbitrary non-empty string. Create a variable firstSymbol and 
+assign it the value of the first character of the string (i.e. the character with index 0).
+Here is an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+
+Solution
+const str = 'Mary';
+const firstSymbol = str [0];
