@@ -1,0 +1,7 @@
+Task
+Create a variable named str and assign it the value of an arbitrary non-empty string. 
+Create a variable lastSymbol and assign it the value of the last character of the string.
+
+Solution
+const str = 'Jone';
+const lastSymbol = str [line length -1];
