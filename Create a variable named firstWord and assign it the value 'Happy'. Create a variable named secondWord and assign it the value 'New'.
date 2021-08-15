@@ -1,0 +1,14 @@
+Task
+Create a variable named firstWord and assign it the value 'Happy'. Create a variable named secondWord and assign it the value 'New'. 
+Create a variable named thirdWord and assign it the value 'Year'. Create a variable named greeting and assign it the result of merging the three specified variables 
+with a space between them and an exclamation mark at the end.
+Let's give an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+const firstName = 'Anthony';
+const lastName = 'Smith';
+const fullName = firstName + '' + lastName;
+
+Solution
+const firstWord = 'Happy';
+const secondWord = 'New';
+const thirdWord = 'Year';
+const greeting = firstWord + '' + secondWord + '' + thirdWord + '!';
