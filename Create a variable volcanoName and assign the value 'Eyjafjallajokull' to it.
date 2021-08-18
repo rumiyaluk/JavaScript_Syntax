@@ -1,0 +1,8 @@
+A task
+Create a variable volcanoName and assign the value 'Eyjafjallajokull' to it.
+Create a variable force length and use the length property to provide the length shown in the VolcanoName table. 
+As a result, you will find out how many letters the name of the famous Icelandic volcano contains.
+
+Solution
+const volcanoName = 'Eyjafjallajokull';
+const strLength = volcanoName.length;
