@@ -1,0 +1,19 @@
+Task
+Create a variable month and assign it any number from 1 to 12.
+Create a second variable, day, and assign it any number between 1 and 31.
+Create a third variable, year, and assign any four-digit number to it.
+Create a fourth variable, date, which will concatenate the first three variables into one line (make sure all variables are separated from each other with a "/").
+An example of a date in US format: mm / dd / yyyy (month / day / year).
+Create a fifth variable, dateLength, which will show the length of the date variable.
+Let's give an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+const hours = 1;
+const minutes = 24;
+const seconds = 2020;
+const combinedString = hours + ':' + minutes + ':' + seconds;
+const lengthOfCombinedString = combinedString.length;
+
+const month = 8;
+const day = 27;
+const year = 1978;
+const date = day + '/' + month + '/' + year;
+const dateLength = date.length;
