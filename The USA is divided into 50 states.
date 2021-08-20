@@ -1,0 +1,16 @@
+Task
+The USA is divided into 50 states. Your job is to list the states that start with the letter "C".
+Create variables cState1, cState2 and cState3 and give them the names of states that start with the letter "C": 'California', 'Colorado', 'Connecticut'.
+Create a variable threeCStates that will concatenate the three variables separated by commas into one line.
+
+Here is an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+const hCar1 = 'Honda';
+const hCar2 = 'Hummer';
+const hCar3 = 'Hyundai';
+const threeHCars = hCar1 + ',' + hCar2 + ',' + hCar3;
+
+Solution
+const cState1 = 'California';
+const cState2 = 'Colorado';
+const cState3 = 'Connecticut';
+const threeCStates = cState1 + ',' + cState2 + ',' + cState3;
