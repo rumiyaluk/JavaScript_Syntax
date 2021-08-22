@@ -1,0 +1,14 @@
+Task
+Create a stringStart variable and assign it the value 'Welcome to our class'.
+Create a variable stringEnd and assign the value 'John Smith' to it.
+Create a newString variable that will be the result of merging the stringStart variable and the stringEnd variable with a space between them.
+
+Let's give an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+let name = 'Paul';
+let surname = 'Smith';
+let fullName = name + '' + surname;
+
+Solution
+let stringStart = 'Welcome to our class';
+let stringEnd = 'John Smith';
+let newString = stringStart + '' + stringEnd;
