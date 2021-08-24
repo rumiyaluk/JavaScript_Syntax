@@ -1,0 +1,10 @@
+Task
+Create variables named a and b and assign values to them with arbitrary numbers. 
+Create a variable named isABiggerThanB and assign the result of comparing variables a and b to it. 
+The variable isABiggerThanB must be true if a> b, and false if a <= b.
+
+Solution
+const a = 5;
+const b = 10;
+const comparison = a> b;
+const isABiggerThanB = comparison;
