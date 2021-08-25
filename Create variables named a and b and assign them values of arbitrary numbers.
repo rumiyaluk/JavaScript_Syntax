@@ -1,0 +1,10 @@
+Task
+Create variables named a and b and assign them values of arbitrary numbers. 
+Create a variable named isALessThanB and assign it the result of comparing variables a and b. 
+The isALessThanB variable must be true if a <b, and false if a> = b.
+ 
+Solution
+const a = 5;
+const b = 10;
+const comparison = a <b;
+const isALessThanB = comparison;
