@@ -1,0 +1,10 @@
+Task
+When comparing values ​​of different types, JavaScript converts each to a number. 
+The loose equality operator == tests for value equality. If a and b have the same value and different types, 
+then the result of the comparison a == b returns true. For example, '25' == 25; (true).
+Create a variable named a and assign the string value '100' to it. Create a variable named b and play it with the value of the number 100. 
+Create a variable named isAEqualsB and assign it the result of loose equality of variables a and b. The variable isAEqualsB must be true if a == b and false otherwise.
+Solution
+const a = '100';
+const b = 100;
+const isAEqualsB = a == b;
