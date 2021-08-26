@@ -1,0 +1,10 @@
+Task
+The strict equality operator === tests equality without casting. 
+If a and b have the same values ​​and types, then the comparison a === b returns true.
+Create variables named a and b and assign them values ​​of arbitrary numbers. 
+Create a variable named isAEqualsB and assign it the result of strict equality between a and b. 
+The variable isAEqualsB must be true if a === b, and false otherwise.
+Solution
+const a = 10;
+const b = 10;
+const isAEqualsB = a === b;
