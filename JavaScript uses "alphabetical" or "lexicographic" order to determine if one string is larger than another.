@@ -1,0 +1,17 @@
+Task
+JavaScript uses "alphabetical" or "lexicographic" order to determine if one string is larger than another. 
+In other words, strings are compared character by character. 
+The comparison stops and returns a result as soon as the character in one string is not equal to the character in the other string. 
+Only if all characters in both strings are identical are the strings equal.
+Create variables named a and b and assign arbitrary string values ​​to them.
+Create a variable named isABiggerThanB and assign the result of comparing variables a and b to it. 
+The variable isABiggerThanB must be true if a> b and false otherwise.
+Here is an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+const x = 'son';
+const y = 'dad';
+const comparison = x> y;
+
+const a = 'Sam';
+const b = 'Den';
+const comparison = a> b;
+const isABiggerThanB = comparison;
