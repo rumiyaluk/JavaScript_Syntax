@@ -1,0 +1,20 @@
+Task
+Create a variable named a and assign null to it. Create a variable b and set it to undefined.
+Create a variable named isStrictEqual and assign it the result of strict equality between a and b. 
+Create a variable named isEqual and assign it the result of loose equality of variables a and b.
+Create a variable strictResult and assign it a string value 'true' or 'false' that matches the result of a strict comparison between null and undefined.
+Create a variable notStrictResult and assign it a string value 'true' or 'false' that matches the result of a loose comparison between null and undefined.
+
+Here is an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+const x = 1;
+const y = 3;
+const comparison = x === y; // since x is not equal to y, the comparison will be false
+const comparisonResult = 'false'; // the variable is assigned the string value 'false'
+
+Solution
+const a = null;
+const b = undefined;
+const isStrictEqual = a === b;
+const isEqual = a == b;
+const strictResult = 'false';
+const notStrictResult = 'true';
