@@ -1,0 +1,10 @@
+Task
+A variable with the value undefined can be created by assigning the value undefined to it. 
+Create a variable named name and assign it the value undefined. Create a variable named typeOfName and assign it a value of type name.
+Here is an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+let salary = undefined;
+const typeOfSalary = typeof salary;
+
+Solution
+let name = undefined;
+const typeOfName = typeof name;
