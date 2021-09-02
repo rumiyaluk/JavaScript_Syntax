@@ -1,0 +1,12 @@
+Task
+Usually undefined is used to check if a variable has been assigned. The special value null means "nothing," "empty," or "the value is intentionally missing."
+Create a variable named home and assign undefined to it. Create a variable named money and set it to null. 
+Create a variable named isNullEqualsUndefined and assign it the result of strict equality between home and money.
+Here is an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+let salary = undefined;
+let job = null;
+let comparison = salary === job;
+Solution
+let home = undefined;
+let money = null;
+let isNullEqualsUndefined = home === money;
