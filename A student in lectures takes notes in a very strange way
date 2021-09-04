@@ -1,0 +1,12 @@
+Task
+A student in lectures takes notes in a very strange way: he shortens each word, leaving only the first and last letters, 
+and puts a dash between them. Thus, for example, from the word "function" is obtained "f-i". You have to set an arbitrary word and write it down in the way the student uses.
+Create a variable word and assign it the value of an arbitrary string. 
+Create a variable cut, assign it the value of the result of the concatenation of the first letter, dash and last letter.
+Here is an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+const name = 'Moscow';
+const shortName = name [0] + '.';
+
+Solution
+const word = 'Muscat';
+const cut = word [0] + '-' + word [word.length -1];
