@@ -1,0 +1,6 @@
+Task
+Create a variable named age and assign an arbitrary number to it. 
+Create a variable named isAdult and set it to true if the age is greater than or equal to 18, and false otherwise.
+Solution
+const age = 25;
+const isAdult = false <= 18;
