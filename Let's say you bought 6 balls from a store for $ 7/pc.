@@ -1,0 +1,11 @@
+Task
+Let's say you bought 6 balls from a store for $ 7 / pc. You need to get a line like this: 
+The cost of 6 balls is equal to 42 dollars. But the number 6 and the expression to get the result (42) must be "embedded" into the string using $ {…}.
+Create a variable price, assign it a value of an arbitrary number (the cost of one ball). 
+Create a variable count and assign it an arbitrary number (number of balls). 
+Create a variable named message and assign it a string value using back quotes containing the text The cost of XX balls is equal to YY dollars, where XX, 
+Y are expressions obtained with $ {…}.
+Solution
+const price = 7;
+const count = 6;
+let message = `The cost of $ {count} balls is equal to $ {price * count} dollars`;
