@@ -1,0 +1,8 @@
+Temperature in the other hemisphere
+If in the Northern Hemisphere it is winter, then in the Southern Hemisphere it is summer. 
+If, say, in Russia, the frost is -30 degrees, then in Australia it can be hot, and the temperature is 30 degrees above zero.
+To solve the problem:
+Set the temp variable and assign an arbitrary number to it. Set the variable opposite and assign the opposite sign value to the variable temp.
+Solution
+const temp = 10;
+const opposite = -temp;
