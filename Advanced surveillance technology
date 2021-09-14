@@ -1,0 +1,15 @@
+Task
+Every Christmas, the North American Aerospace Defense Command (NORAD) tracks Santa Claus with its advanced surveillance technology, 
+and then shares this vital information in real time with the NORAD Santa Tracker.
+Based on flight profile data collected over 50 years of radar and satellite tracking, 
+NORAD concludes that Santa is probably about 5 feet 7 inches tall and weighs about 260 pounds (before the cookie). Find Santa's weight in kilograms if 1 pound = 0.453592 kg.
+To solve the problem:
+Set the variable pound and assign it the value 0.453592.
+Set the variable weight and set it to 260 (weight in pounds).
+Set the variable weightKg to calculate Santa's weight in kilograms.
+(Note: 1 lb = 0.453592 kg)
+
+Solution
+const pound = 0.453592;
+const weight = 260;
+const weightKg = weight * pound;
