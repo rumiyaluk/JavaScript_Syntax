@@ -1,0 +1,15 @@
+Task
+You are given the area of ​​a square square. Calculate the length of the side and the length of the diagonal.
+Set the variable square and assign it to an arbitrary non-negative number.
+Set the variable side, in which you calculate the side of the square (the side of the square is equal to the square root of the area, or the area to the power of 0.5).
+Set the variable diagonal, in which calculate the length of the diagonal (the diagonal is calculated by the formula: its square is equal to twice the square of the side, 
+and the diagonal itself is the square root of the doubled square of the side).
+Let's give an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+const s = 1000;
+const a = s ** 0.5; // square root of s
+const d = (2 * a ** 2) ** 0.5; // root of 2 * a ** 2
+
+Solution
+const square = 500;
+const side = square ** 0.5;
+const diagonal = (2 * side ** 2) ** 0.5;
