@@ -1,0 +1,14 @@
+Task
+In a right-angled triangle, there are two legs a and b. Find the hypotenuse with.
+Set the variable a and assign it the value of an arbitrary non-negative number (first leg).
+Set the variable b and assign it the value of an arbitrary non-negative number (second leg).
+Set the variable c in which to calculate the hypotenuse (square root of the sum of the squares of the legs).
+Let's give an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+const x = 3;
+const y = 5;
+const z = (x ** 2 + y ** 2) ** 0.5;
+
+Solution
+const a = 5;
+const b = 8;
+const c = (a ** 2 + b ** 2) ** 0.5;
