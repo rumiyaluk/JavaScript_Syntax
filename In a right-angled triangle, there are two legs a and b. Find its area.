@@ -1,0 +1,15 @@
+Task
+In a right-angled triangle, there are two legs a and b. Find its area.
+Set the variable a and assign it the value of an arbitrary non-negative number (first leg).
+Set the variable b and assign it the value of an arbitrary non-negative number (second leg).
+Set the variable area, in which calculate the area of ​​the triangle (half the product of the legs).
+Here is an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+const x = 3;
+const y = 5;
+const z = x * y / 2;
+Write your solution hereunit
+Run
+  Solution
+1const a = 3;
+2const b = 5;
+3const area = a * b / 2;
