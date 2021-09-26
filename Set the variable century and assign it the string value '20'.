@@ -1,0 +1,11 @@
+Set the variable century and assign it the string value '20'.
+Set the variable years and assign it the string value '22'.
+Set the variable date and assign it the result of the merge of the century and years variables.
+Here is an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+const redBalls = '13';
+const greenBalls = '15';
+const balls = redBalls + greenBalls;
+Solution
+const century = '20';
+const years = '22';
+const date = century + years;
