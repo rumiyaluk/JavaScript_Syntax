@@ -1,0 +1,14 @@
+
+Is it possible to add two numbers, represented as strings, and get the correct result?
+Set the variable a and assign it the value of a string containing an arbitrary number, for example, '8'.
+Set the variable b and assign it the value of a string containing an arbitrary number, for example, '12'.
+Set the variable sum and assign it the result of adding these numbers.
+Here is an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+const redBalls = '13';
+const greenBalls = '15';
+const balls = + redBalls + + greenBalls;
+
+Solution
+const a = '8';
+const b = '12';
+const sum = + a + + b;
