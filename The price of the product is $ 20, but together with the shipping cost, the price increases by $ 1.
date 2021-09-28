@@ -1,0 +1,13 @@
+Task
+The price of the product is $ 20, but together with the shipping cost, the price increases by $ 1.
+Set the variable price and assign it a value of 20. Then write a command to increment the value of the price variable by 1.
+Here is an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+let number = 8;
+number ++;
+
+Solution
+let price = 20;
+price++;
+Task
+let price = 10;
+price--;
