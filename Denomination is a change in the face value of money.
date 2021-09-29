@@ -1,0 +1,12 @@
+Task
+Denomination is a change in the face value of money. Usually expressed in "cutting" a certain number of zeros from old banknotes and 
+issuing new money of a smaller denomination into circulation.
+Suppose a denomination took place in a certain country, and one zero was removed from the notes. Set the variable money and set it to 1000. 
+Then write a command that decreases the value of the money variable by 10 times.
+Let's give an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+let number = 30;
+number / = 10;
+
+Solution
+let money = 1000;
+money / = 10;
