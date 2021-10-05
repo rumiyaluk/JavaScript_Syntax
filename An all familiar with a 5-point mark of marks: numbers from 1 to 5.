@@ -1,0 +1,10 @@
+Task
+An all familiar with a 5-point mark of marks: numbers from 1 to 5. 
+But with the introduction of a 10-point system, all marks increased by 2 times. For example, 5 became a dozen, 4 - eight, etc.
+Set the SCORE variable and assign it to 5. Then write the command that increases the value of the SCORE variable by 2 times.
+Let us give an example that is fundamentally similar to what you need to do, but adapt it to the requirements of the problem:
+Let Number = 3;
+Number * = 2;
+
+Let score = 5;
+score * = 2;
