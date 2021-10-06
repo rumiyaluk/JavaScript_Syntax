@@ -1,0 +1,12 @@
+Task
+There are 30 children in the class. The third part of all children are girls.
+Create a variable kids with a value of 30. Create a girls variable to calculate the number of girls in the class. 
+Create a variable boys to calculate the number of boys in the class.
+Let's give an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+const a = 30;
+const b = a / 3;
+const c = a - b;
+Solution
+const kids = 30;
+const girls = kids / 3;
+const boys = kids - girls;
