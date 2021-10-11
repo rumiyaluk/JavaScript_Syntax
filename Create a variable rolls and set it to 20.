@@ -1,0 +1,10 @@
+Task
+Create a variable rolls and set it to 20.
+Create a variable leftoverRolls and count how many rolls Sasha has left.
+Let's give an example that is fundamentally similar to what needs to be done. Adapt it to the requirements of the task.
+const cupcakes = 8;
+const leftoverCupcakes = cupcakes - 3;
+
+Solution
+const rolls = 20;
+const leftoverRolls = rolls - 5;
