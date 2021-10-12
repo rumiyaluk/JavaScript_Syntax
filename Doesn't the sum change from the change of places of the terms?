@@ -1,0 +1,13 @@
+Task
+Doesn't the sum change from the change of places of the terms?
+Set the variable a and assign it the string value '2'. Set the variable b and assign it the string value '3'.
+Set the variable aPlusB and assign it the result of the merge of variables a and b. Set the variable bPlusA and assign it the result of the merge of variables b and a.
+Set the variable isEqual and assign it the result of comparing the variables aPlusB and bPlusA.
+
+Solution
+
+const a = '2';
+const b = '3';
+const aPlusB = a + b;
+const bPlusA = b + a;
+const isEqual = aPlusB === bPlusA;
