@@ -1,0 +1,8 @@
+Task
+Set the variables a and b and assign them the values of strings containing arbitrary numbers.
+Set the variable sum and assign it the result of adding these numbers, having previously converted the strings to numbers.
+Those. for example, the result '4' + '7' should be 11.
+Solution
+const a = '4';
+const b = '7';
+const sum = +a + +b;
