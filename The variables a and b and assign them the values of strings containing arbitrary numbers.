@@ -1,0 +1,13 @@
+Task
+Set the variables a and b and assign them the values of strings containing arbitrary numbers.
+Set the variable difference and assign it the result of subtracting numbers (subtract b from a), first converting the strings to numbers. 
+Those. for example, the result '5' - '3' should be 2.
+Let's give an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+const num1 = '13';
+const num2 = '15';
+const result = + num1 - + num2;
+
+Solution
+const a = '5';
+const b = '10';
+const difference = + a - + b;
