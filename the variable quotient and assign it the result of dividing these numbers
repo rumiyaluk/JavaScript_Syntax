@@ -1,0 +1,10 @@
+Task
+Set the variables a and b and assign them the values of strings containing arbitrary numbers.
+Set the variable quotient and assign it the result of dividing these numbers, first converting the strings to numbers.
+Those. for example, the result '20' / '5' should be 4.
+Here is an example that is fundamentally similar to what needs to be done, but adapt it to the requirements of the task:
+const a = '5';
+const b = '10';
+
+Solution
+const quotient = + a / + b;
