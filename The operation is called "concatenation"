@@ -1,0 +1,12 @@
+
+Set the variable str1 and set it to the string 'Everything'. Set the variable str2 and assign it the string value 'is'. 
+Set the variable str3 and assign it the value of the string 'beautiful'.
+Set the variable message and assign it the result of the concatenation of str1, str2, and str3 with a space delimiter and an exclamation mark at the end.
+const str1 = 'Everything';
+const str2 = 'is';
+const str3 = 'beautiful';
+const message = str1 + '' + str2 + '' + str3 '!';
+const str1 = 'Everything';
+const str2 = 'is';
+const str3 = 'beautiful';
+const message = str1 + '' + str2 + '' + str3 + '!';
