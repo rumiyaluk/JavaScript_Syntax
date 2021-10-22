@@ -1,0 +1,5 @@
+User object with properties: name, age
+Create a user object that has properties: name with value Alice, age with value 25.
+
+Solution
+const user = {name: 'Alice', age: 25};
