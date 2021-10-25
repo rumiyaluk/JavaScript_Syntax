@@ -1,0 +1,6 @@
+Task
+The address object with the city property
+Create an address object that has a city property set to Miami.
+
+Solution
+const address = {city: 'Miami',};
