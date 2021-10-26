@@ -1,0 +1,6 @@
+Task
+User object with properties: name, age, isAdult
+Create a user object that has properties: name with a value of Alice, age with a value of 25, isAdult with a value of true.
+
+Solution
+const user = {name: 'Alice', age: 25, isAdult: true,};
