@@ -1,0 +1,6 @@
+Task
+A person object with properties: firstName, lastName, age, job
+Create a person object that has properties: firstName with value Alice, lastName with value Moon, age with value 35, job with value QA engineer.
+
+Solution
+const person = {firstName: 'Alice', lastName: 'Moon', age: 35, job: 'QA engineer',};
