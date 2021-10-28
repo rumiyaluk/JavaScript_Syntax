@@ -1,0 +1,6 @@
+Task
+A person object with properties: name, 'likes dogs', 'likes cats'
+Create a person object that has properties: name with the value Alice, likes dogs with the value true, likes cats with the value false.
+
+Solution
+const person = {name: 'Alice', 'likes dogs': true, 'likes cats': false,};
