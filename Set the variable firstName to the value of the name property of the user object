@@ -1,0 +1,7 @@
+Task
+Set the variable firstName to the value of the name property of the user object
+Create a user object that has properties: name with value Alice, isStudent with value true. 
+Create a variable firstName and assign it the value of the name property of the user object.
+Solution
+const user = {name: 'Alice', isStudent: true,};
+const firstName = user.name;
