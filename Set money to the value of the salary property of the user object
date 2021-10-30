@@ -1,0 +1,8 @@
+Task 
+Set money to the value of the salary property of the user object
+Create a user object that has properties: name with a value of Bob, hasJob with a value of true, salary with a value of 80000. 
+Create a variable money and assign it the value of the salary property of the user object.
+
+Solution
+const user = {name: 'Bob', 'hasJob': true, salary: 80000,};
+const money = user.salary;
