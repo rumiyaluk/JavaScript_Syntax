@@ -1,0 +1,9 @@
+Task Total family income
+Create a husband object that has properties: name with a value of Bob, salary with a value of 95000. 
+Create an object wife that has properties: name with a value of Alice, salary with a value of 90000. 
+Create the variable income and set it to the sum of the family members' income.
+
+Solution
+const husband = {name: 'Bob', salary: 95000,};
+const wife = {name: 'Alice', salary: 90000,};
+const income = husband.salary + wife.salary;
