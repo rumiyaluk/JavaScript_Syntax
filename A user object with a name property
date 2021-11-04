@@ -1,0 +1,6 @@
+Task 
+A user object with a name property
+Create a user object that has a name property set to Alice.
+
+Solution
+const user = {name: 'Alice',};
