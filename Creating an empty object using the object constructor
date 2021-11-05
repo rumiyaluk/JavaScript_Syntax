@@ -1,0 +1,7 @@
+Task
+Creating an empty object using the object constructor
+Create an empty object using the object constructor.
+Create a variable obj and assign it the value of an empty object using the object's constructor.
+
+Solution
+const obj = Object ();
