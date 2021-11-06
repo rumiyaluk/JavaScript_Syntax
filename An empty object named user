@@ -1,0 +1,6 @@
+Task
+An empty object named user
+Create a variable user and assign it the value of an empty object using curly braces.
+
+Solution
+const user = {};
