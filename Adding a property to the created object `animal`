@@ -1,0 +1,6 @@
+Task
+Adding a property to the created object `animal`
+Create an animal object that has a name property set to bear. Then write a command that adds a class property to the animal object with the value 'mammal'.
+
+Solution
+const animal = {name: 'bear', class: 'mammal',};
