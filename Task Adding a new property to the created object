@@ -1,0 +1,7 @@
+Task
+Task Adding a new property to the created object
+Create a user object that has a name property set to Bob. Then write a command that adds an address property with the value 'Sacramento' to the user object.
+
+
+Solution
+const user = {name: 'Bob', address: 'Sacramento',};
