@@ -1,0 +1,7 @@
+Task
+Adding a property to the `bird` object
+Create a bird object that has a name property set to Blue Jay.
+Then write a command that adds a color property to the bird object with the value 'blue'.
+
+Solution
+const bird = {name: 'Blue Jay', color: 'blue',};
