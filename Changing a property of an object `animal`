@@ -1,0 +1,8 @@
+Task
+Changing a property of an object `animal`
+Create an animal object that has properties: name with a value of gorilla, color with a value of 'brown'. 
+Then write a command that changes the value of the color property to black.
+
+Solution
+const animal = {name: 'gorilla', color: 'brown',};
+animal.color = 'black';
