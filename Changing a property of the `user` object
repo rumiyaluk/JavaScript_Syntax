@@ -1,0 +1,8 @@
+Task 
+Changing a property of the `user` object
+Create a user object with a name property set to Bryan. Then write a command that changes the value of the name property to Bill.
+
+
+Solution
+const user = {name: 'Bryan',};
+user.name = 'Bill';
