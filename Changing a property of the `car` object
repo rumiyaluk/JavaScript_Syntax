@@ -1,0 +1,8 @@
+Task 
+Changing a property of the `car` object
+Create a car object with properties: make with value Toyota, model with value Corolla. 
+Then write a command that changes the value of the model property to Camry.
+
+Solution
+const car = {make: 'Toyota', model: 'Corolla',};
+car.model = 'Camry';
