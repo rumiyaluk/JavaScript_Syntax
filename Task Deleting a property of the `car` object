@@ -1,0 +1,7 @@
+Task Deleting a property of the `car` object
+Create a car object with properties: make with a value of Ford, model with a value of Mustang, year with a value of 2015.
+Then write a command that removes the year property.
+
+Solution
+const car = {make: 'Ford', model: 'Mustang', year: 2015,};
+delete car.year;
