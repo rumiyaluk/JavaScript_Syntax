@@ -1,0 +1,8 @@
+Task 
+Deleting a property of an object `animal`
+Create an animal object that has properties: name with a value of elephant, color with a value of 'gray', 
+weight with a value of 2500. Then write a command that removes the weight property
+
+Solution
+const animal = {name: 'elephant', color: 'gray', weight: 2500,};
+delete animal.weight;
