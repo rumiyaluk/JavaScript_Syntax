@@ -1,0 +1,7 @@
+Task
+Deleting a property of a student object
+Create a student object that has properties: name with a value of Peter, school with a value of PASV, isAdult with a value of true.
+
+Solution
+const student = {name: 'Peter', school: 'PASV', isAdult: true,};
+delete student.isAdult;
