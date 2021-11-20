@@ -1,0 +1,8 @@
+Task
+Are there oranges in the warehouse? (Checking the existence of a property of an object by converting to a boolean type using a Boolean object)
+The object stores information about the stock of fruits in the warehouse: const obj = {'apple': 40, 'orange': 25, 'mango': 50,}
+Determine if there is "orange" in stock. The result must be true or false. In other words, does the object have a property named orange.
+To complete the task, create an obj object as described above. Then set a variable named hasOrange and assign it the result of converting the 'orange' property to a boolean type.
+Solution
+const obj = {'apple': 40, 'orange': 25, 'mango': 50,};
+const hasOrange = Boolean (obj.orange);
