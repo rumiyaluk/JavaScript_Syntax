@@ -1,0 +1,9 @@
+Task
+Problem Is there a "b" in the word? (Checking the existence of object properties by converting to a boolean type using a Boolean object)
+When counting the number of different letters in a certain word, an object was formed: const obj = {'a': 3, 'b': 2, 'z': 3,}
+Determine if the letter "b" is in the word. The result must be true or false. In other words, does the object have properties named b.
+To complete the task, create an obj object as described above. Then set a variable named propertyB and assign it the result of converting
+
+Solution
+const obj = {'a': 3, 'b': 2, 'z': 3,};
+const propertyB = Boolean (obj.b);
