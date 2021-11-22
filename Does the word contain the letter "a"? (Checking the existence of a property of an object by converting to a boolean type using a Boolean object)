@@ -1,0 +1,8 @@
+Task 
+Does the word contain the letter "a"? (Checking the existence of a property of an object by converting to a boolean type using a Boolean object)
+When counting the number of different letters in some word (for example, "baobab") an object was formed: const obj = {'b': 3, 'a': 2, 'o': 1,}
+Determine if the word contains the letter "a". The result must be true or false. In other words, does the object have a property named a.
+To complete the task, create an obj object as described above. Then set a variable named propertyA and assign it the result of converting property 'a' to boolean.
+Solution
+const obj = {'b': 3, 'a': 2, 'o': 1,};
+const propertyA = Boolean (obj.a);
