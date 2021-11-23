@@ -1,0 +1,9 @@
+Task
+Are bananas in stock? (Checking the existence of a property of an object by converting to a boolean type using a Boolean object)
+The object stores information about the stock of fruits in the warehouse: const obj = {'apple': 40, 'orange': 25, 'mango': 50,}
+Determine if "banana" is in stock. The result must be true or false. In other words, does the object have a property named banana.
+To complete the task, create an obj object as described above. 
+Then set a variable named hasBanana and assign it the result of converting the 'banana' property to a boolean type.
+Solution
+const obj = { 'apple': 40, 'orange': 25, 'mango': 50, }
+const hasBanana = Boolean(obj.banana);
