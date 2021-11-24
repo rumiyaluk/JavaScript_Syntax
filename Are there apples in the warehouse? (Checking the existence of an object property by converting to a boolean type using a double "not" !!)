@@ -1,0 +1,10 @@
+Task
+Are there apples in the warehouse? (Checking the existence of an object property by converting to a boolean type using a double "not" !!)
+The object stores information about the stock of fruits in the warehouse: const obj = {'apple': 40, 'orange': 25, 'mango': 50,}
+Determine if "apple" is in stock. The result must be true or false. In other words, does the object have a property named apple.
+To complete the task, create an obj object as described above. Then set a variable named hasApple and assign it the result of converting the 'apple' 
+property to a boolean using the double not (!!).
+
+Solution
+const obj = {'apple': 40, 'orange': 25, 'mango': 50,}
+const hasApple = !! obj.apple;
