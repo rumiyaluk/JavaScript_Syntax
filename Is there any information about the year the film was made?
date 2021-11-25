@@ -1,0 +1,9 @@
+Task
+Is there any information about the year the film was made? (Checking the existence of an object property by converting to a boolean type using a double "not": !!)
+The object stores information about the movie: const movie = {'name': 'Groundhog day', 'type': 'comedy', 'year': 1993,}
+Determine if the object stores information about the year the movie was made. The result must be true or false. In other words, does the object have a property named year.
+To complete the task, create a movie object as described above. Then set a variable named hasYear and assign it the result of converting the 'year' property to a boolean type using the double not (!!).
+
+Solution
+const movie = {'name': 'Groundhog day', 'type': 'comedy', 'year': 1993,}
+const hasYear = !! movie.year;
