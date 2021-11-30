@@ -1,0 +1,11 @@
+Task 
+Is there any information about the title of the movie? 
+(Checking the existence of an object property by converting to a boolean type using a double "not": !!)
+The object stores information about the movie: const movie = {'name': 'Groundhog day', 'type': 'comedy', 'year': 1993,}
+Determine if the object stores movie title information. The result must be true or false. In other words, does the movie object have a property named name.
+To complete the task, create a movie object as described above. Then set a variable named hasName and assign 
+it the result of converting the 'name' property to a boolean type using a double not (!!).
+
+Solution
+const movie = {'name': 'Groundhog day', 'type': 'comedy', 'year': 1993,}
+const hasName = !! movie.name;
