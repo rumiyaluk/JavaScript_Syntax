@@ -1,0 +1,10 @@
+Task 
+Is there information about the car model? (Checking for the existence of an object property using the hasOwnProperty () method)
+The object stores information about the car: const car = {'make': 'Toyota', 'model': 'Camry', 'year': 2016,}
+Determine if the object stores information about the vehicle model. The result must be true or false. In other words, does the car object have a property named model.
+To complete the task, create a car object as described above. Then set a variable named hasModel and set it to car.hasOwnProperty ('model'), 
+which will be true if the car object contains a model property, and false otherwise.
+
+Solution
+const car = {'make': 'Toyota', 'model': 'Camry', 'year': 2016,}
+const hasModel = car.hasOwnProperty ('model');
