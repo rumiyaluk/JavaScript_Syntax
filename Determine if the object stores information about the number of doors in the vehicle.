@@ -1,0 +1,9 @@
+Task
+Determine if the object stores information about the number of doors in the vehicle. 
+The result must be true or false. In other words, does the car object have a property named doors.
+To complete the task, create a car object as described above. Then set a variable named hasInfoDoors and assign it a value using the hasOwnProperty () method, 
+which is true if the car object contains a doors property, and false otherwise.
+
+Solution
+const car = {'make': 'Toyota', 'model': 'Camry', 'year': 2016,}
+const hasInfoDoors = car.hasOwnProperty ('doors');
