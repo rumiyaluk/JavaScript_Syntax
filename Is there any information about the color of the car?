@@ -1,0 +1,12 @@
+Task 
+Is there any information about the color of the car? 
+(Checking for the existence of an object property using the hasOwnProperty () method)
+The object stores information about the car: const car = {'make': 'Toyota', 'model': 'Camry', 'year': 2016,}
+Determine if the object stores information about the color of the car. The result must be true or false. 
+In other words, does the car object have a property named color.
+To complete the task, create a car object as described above. 
+Then set a variable named hasColor and set it to car.hasOwnProperty ('color'), which will be true if the car object contains a color property, and false otherwise.
+
+Solution
+const car = {'make': 'Toyota', 'model': 'Camry', 'year': 2016,}
+const hasColor = car.hasOwnProperty ('color');
