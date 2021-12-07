@@ -1,0 +1,10 @@
+Task
+Is there any information on academic performance in biology? (Checking the existence of an object property with "key" in obj)
+The object stores information about the student's marks: const report = {'math': 5, 'history': 4, 'science': 5,}
+Determine if the object stores biology grade information. The result must be true or false. In other words, does the report object have a property named biology.
+To complete the task, create a report object as described above. Then set a variable named hasBiology and assign it the value: 'biology' in report, 
+which will be true if the report object contains a biology property, and false otherwise.
+
+Solution
+const report = {'math': 5, 'history': 4, 'science': 5,}
+const hasBiology = 'biology' in report;
