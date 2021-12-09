@@ -1,0 +1,15 @@
+Task 
+Check for the properties of the `book` object. (Checking the existence of object properties using "key" in obj)
+Create a book object describing the book with the following properties: author with value 'Margaret Mitchell', 
+title with value 'Gone with the Wind', style with value 'novel', year with value 1936.
+Check that the object has the following properties: author, title, style, year, pages.
+To do this, set the variables hasAuthor, hasTitle, hasStyle, hasYear, hasPages and assign 
+them values ​​using the "key" in obj check, which will be true if the book object contains a property, and false otherwise.
+const book = {author: 'Margaret Mitchell', title: 'Gone with the Wind', style: 'novel', year: 1936,};
+
+Solution
+const hasAuthor = 'author' in book;
+const hasTitle = 'title' in book;
+const hasStyle = 'style' in book;
+const hasYear = 'year' in book;
+const hasPages = 'pages' in book;
