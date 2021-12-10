@@ -1,0 +1,10 @@
+Task
+Travel by car
+Create a trip object with the following properties: milesPerDay with a value of 400 (miles per day), days with a value of 5 (number of travel days), 
+gallonsPerMile with a value of 0.02 (fuel consumption per mile).
+Set the variable totalMiles to calculate the total distance traveled. Set the variable totalGallons to calculate the gallons of fuel consumed.
+
+Solution
+const trip = {'milesPerDay': 400, 'days': 5, 'gallonsPerMile': 0.02,};
+const totalMiles = trip.milesPerDay * trip.days;
+const totalGallons = totalMiles * trip.gallonsPerMile;
