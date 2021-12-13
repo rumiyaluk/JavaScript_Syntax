@@ -1,0 +1,8 @@
+Task
+How many students are there in the school?
+Create a school object that describes the school with the following properties: name with a value of 'Fox Trail Elementary', 
+boys with a value of 543, girls with a value of 487. Set the variable count to find the number of students in the school (add the values of the boys and girls properties).
+
+Solution
+const school = {name: 'Fox Trail Elementary', boys: 543, girls: 487,};
+const count = school.boys + school.girls;
