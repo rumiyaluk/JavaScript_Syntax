@@ -1,0 +1,8 @@
+Task 
+Weekly Salary
+Create an employee object with the following properties: name with a value of 'Bob', 
+paymentPerHour with a value of 35, hoursPerWeek with a value of 40. Set the variable salaryPerWeek to calculate how much the employee gets paid per week.
+
+Solution
+const employee = {name: 'Bob', paymentPerHour: 35, hoursPerWeek: 40,};
+const salaryPerWeek = employee.paymentPerHour * employee.hoursPerWeek;
