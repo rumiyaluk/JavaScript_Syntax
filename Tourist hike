@@ -1,0 +1,9 @@
+Task
+Tourist hike
+Create a hike object with the following properties: distancePerDay with a value of 20 (the number of kilometers per day), 
+days with a value of 14 (the number of days of the hike).
+Set the variable totalDistance to calculate the total distance traveled along the path.
+
+Solution
+const hike = {distancePerDay: 20, days: 14,};
+const totalDistance = hike.distancePerDay * hike.days;
