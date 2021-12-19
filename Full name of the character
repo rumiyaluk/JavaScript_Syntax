@@ -1,0 +1,8 @@
+Task 
+Full name of the character
+Create a person object with the following properties: firstName with value 'Harry', lastName with value 'Potter'.
+Set the variable name, to which you assign the result of merging the values of the firstName and lastName properties with a space between them.
+
+Solution
+const person = {firstName: 'Harry', lastName: 'Potter',};
+const name = person.firstName + '' + person.lastName;
