@@ -1,0 +1,9 @@
+Task 
+Stamp Collection
+The philatelist has several albums of stamps, which are sorted by theme. Find the total number of stamps.
+There is an object that stores information about the number of brands for each topic: collection = {cosmos: 134, cities: 255, fishes: 322, animals: 290,}
+To complete the task, create a collection object as described above. Set the variable total to calculate the total number of stamps.
+
+Solution
+const collection = {cosmos: 134, cities: 255, fishes: 322, animals: 290,};
+const total = collection.cosmos + collection.cities + collection.fishes + collection.animals;
