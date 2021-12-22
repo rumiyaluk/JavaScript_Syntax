@@ -1,0 +1,9 @@
+Task 
+How many people went on a tourist trip?
+Students of different grades and teachers went on a tourist trip. Find the total number of people in your trip.
+There is an object that stores information about the number of trip participants: trip = {'teachers': 4, '9a': 15, '9b': 17, '10a': 12,}
+To complete the task, create a trip object as described above. Set the variable count to calculate the total number of people in the trip.
+
+Solution
+const trip = {'teachers': 4, '9a': 15, '9b': 17, '10a': 12,};
+const count = trip.teachers + trip ['9a'] + trip ['9b'] + trip ['10a'];
