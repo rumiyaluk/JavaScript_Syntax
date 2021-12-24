@@ -1,0 +1,9 @@
+Task 
+Toys for the holiday
+Before Christmas, the company purchased toys for the employees' children. 
+There is an object that stores information about the types and number of toys: gifts = {'puzzles': 30, 'dolls': 14, 'cars': 20, 'lego': 15,}
+Calculate the total number of toys. To complete the assignment, create a gifts object as above. Set the variable count to calculate the total number of toys.
+
+Solution
+const gifts = {'puzzles': 30, 'dolls': 14, 'cars': 20, 'lego': 15,};
+const count = gifts.puzzles + gifts.dolls + gifts.cars + gifts.lego;
