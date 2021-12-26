@@ -1,0 +1,11 @@
+Task 
+Cruise passengers
+Two liners set off on a Mediterranean cruise from the port of Barcelona. The objects store information about 
+the name of the liner and the number of people on board. 
+Find the total number of passengers on the two liners. ship1 = {name: 'MSC Seaview', passengers: 4050,}, ship2 = {name: 'Costa Magica', passengers: 2716,}
+Create objects as above and also a variable total, in which you will calculate the total number of passengers.
+
+Solution
+const ship1 = {name: 'MSC Seaview', passengers: 4050,};
+const ship2 = {name: 'Costa Magica', passengers: 2716,};
+const total = ship1.passengers + ship2.passengers;
