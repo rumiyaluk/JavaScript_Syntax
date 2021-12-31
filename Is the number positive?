@@ -1,0 +1,8 @@
+Task
+Is the number positive?
+Create a variable num and assign an arbitrary number to it. Create a variable isPositive and assign it a boolean expression (comparison), 
+which will be true if the number is positive, or false otherwise.
+
+Solution
+const num = 5;
+const isPositive = num <8;
