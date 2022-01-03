@@ -1,0 +1,6 @@
+Task
+Assign to variable a the result of comparing the numbers 5 and 3 so that the comparison is false.
+Assign to variable a the result of comparing the numbers 5 and 3 so that the comparison is false.
+
+Solution
+const a = 5 <3;
