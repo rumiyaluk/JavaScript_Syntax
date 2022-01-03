@@ -1,0 +1,6 @@
+Task
+Assign the result of comparing 10 and 100 to variable a so that the comparison is true.
+Assign the result of comparing 10 and 100 to variable a so that the comparison is true.
+
+Solution
+const a = 10 <100;
