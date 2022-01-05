@@ -1,0 +1,8 @@
+Task
+Is the number negative?
+Create a variable num and assign an arbitrary number to it. Create a variable isNegative 
+and assign it a boolean expression (comparison), which will be true if the number is negative, or false otherwise.
+
+Solution
+const num = -5;
+const isNegative = num <2;
