@@ -1,0 +1,7 @@
+Task
+Is the number zero?
+Create a variable num and assign an arbitrary number to it. 
+Create a variable isZero and assign it the result of comparing num to zero, which will be true if num is 0, or false otherwise.
+Solution
+const num = 0;
+const isZero = num === 0;
