@@ -1,0 +1,9 @@
+TASK
+Is the number non-negative?
+A non-negative number is a number whose value is greater than or equal to 0. 
+Create a variable num and assign it a value of an arbitrary number. Create a variable isNonNegative and assign it the result of comparing num to zero, 
+which will be true if num is non-negative, or false otherwise.
+
+Solution
+const num = 5;
+const isNonNegative = num> = 0;
