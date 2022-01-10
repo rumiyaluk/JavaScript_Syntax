@@ -1,0 +1,9 @@
+Task
+Is it true that the given numbers a and b are equal?
+Create variables a and b and assign arbitrary numbers to them. Create a variable areEqual and assign it the result of 
+a strict comparison between a and b, so that areEqual is true if a is b, or false otherwise.
+
+Solution
+const a = 3;
+const b = 10;
+const areEqual = a === b;
