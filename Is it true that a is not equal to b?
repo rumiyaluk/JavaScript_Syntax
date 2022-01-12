@@ -1,0 +1,10 @@
+Task
+Is it true that a is not equal to b?
+Create variables a and b and assign arbitrary numbers to them. 
+Create a variable isNotEqual and assign it the result of comparing variables a and b so that isNotEqual is true if a is not equal to b, or false otherwise.
+
+Solution
+
+const a = 5;
+const b = 10;
+const isNotEqual = a! == b;
