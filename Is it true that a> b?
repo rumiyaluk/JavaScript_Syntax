@@ -1,0 +1,9 @@
+Task
+Is it true that a> b?
+Create variables a and b and assign arbitrary numbers to them. 
+Create a variable isAGreaterThanB and assign it the result of comparing variables a and b so that isAGreaterThanB will be true if a is greater than b, or false otherwise.
+
+Solution
+const a = 40;
+const b = 20;
+const isAGreaterThanB = a> b;
