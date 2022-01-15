@@ -1,0 +1,8 @@
+Task
+Is it true that the given number is less than 10?
+Create a variable num and assign it the value of an arbitrary number. 
+Create a variable isLessThan10 and assign it the result of comparing num with 10, which will be true if num is less than 10 or false otherwise.
+
+Solution
+const num = 6;
+const isLessThan10 = num < 10;
