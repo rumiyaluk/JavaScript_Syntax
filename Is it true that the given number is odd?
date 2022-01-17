@@ -1,0 +1,9 @@
+Task
+Is it true that the given number is odd?
+A number is odd if the remainder of dividing that number by 2 is not 0. 
+Create a variable num and assign it the value of an arbitrary number. 
+Create a variable isOdd and assign to it the result of comparing the remainder of num divided by 2 with zero, which will be true if num is an odd number, or false otherwise.
+
+Solution
+const num = 7;
+const isOdd = num % 2 !== 0;
