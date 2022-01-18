@@ -1,0 +1,9 @@
+task
+Is it true that the given number is a multiple of 3?
+A number is a multiple of 3 if the remainder of that number divided by 3 is 0. 
+Create a variable num and assign it the value of an arbitrary number. Create a variable isDividedBy3 and assign to it the result of 
+comparing the remainder of num divided by 3 with zero, which will be true if num is a multiple of 3 or false otherwise.
+
+Solution
+const num = 12;
+const isDividedBy3 = num % 3 === 0;
