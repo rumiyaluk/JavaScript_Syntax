@@ -1,0 +1,11 @@
+Task
+Is it true that a is a multiple of b?
+A is a multiple of b if the remainder of a divided by b is 0. Create variables a and b and assign arbitrary non-zero integer values to them. 
+Create a variable isATimesB and assign to it the result of comparing the remainder of dividing variable a 
+by variable b with zero, so that isATimesB will be true if a is a multiple of b, or false otherwise.
+
+
+Solution
+const a = 25;
+const b = 5;
+const isATimesB = a % b === 0;
