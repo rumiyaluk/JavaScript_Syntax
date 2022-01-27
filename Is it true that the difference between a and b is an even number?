@@ -1,0 +1,10 @@
+Task
+Is it true that the difference between a and b is an even number?
+A number is even if the remainder of dividing that number by 2 is 0. Create variables a and b and assign arbitrary numbers to them. 
+Create a variable isDifferenceEven and assign it the result of checking if the difference between these numbers is an even number. 
+Those. the variable isDifferenceEven will be true if a - b is an even number, or false otherwise.
+
+Solution
+const a = 18;
+const b = 8;
+const isDifferenceEven = (a - b) % 2 === 0;
