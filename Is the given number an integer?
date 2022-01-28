@@ -1,0 +1,10 @@
+Task
+Is the given number an integer?
+An integer is a number that has no decimals. To check if a number is an integer, it is enough to find the remainder after dividing this number by 1. 
+If the remainder is 0, then this number is an integer.
+Create a variable num and assign it the value of an arbitrary number. 
+Create an isInteger variable and assign it a boolean expression that evaluates to true if the remainder of num divided by 1 is zero , or false otherwise.
+
+Solution
+const num = 20;
+const isInteger = num % 1 === 0;
