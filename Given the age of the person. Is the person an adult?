@@ -1,0 +1,8 @@
+Еask
+Given the age of the person. Is the person an adult?
+In many countries, the age of majority is 18. Create a variable age and assign it the value of an arbitrary positive number 
+(the person's age). Create a variable isAdult and assign it a boolean expression that evaluates to true if the age is greater than or equal to 18 and false otherwise.
+
+Solution
+const age = 20;
+const isAdult = age >= 18;
