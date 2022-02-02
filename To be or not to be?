@@ -1,0 +1,10 @@
+Task
+To be or not to be?
+"To be, or not to be, that is the question..." (William Shakespeare, Hamlet).
+Create a variable named toBe and set it to true. Create a variable named notToBe and set it to false. 
+Create a variable named answer and assign to it the result of applying the logical OR operation to these variables.
+
+Solution
+const to Be = true;
+const notToBe = false;
+const answer = to Be || notToBe;
