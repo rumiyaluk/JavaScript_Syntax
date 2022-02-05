@@ -1,0 +1,10 @@
+
+Task
+Is it true that it's winter now?
+set up a month variable and give it the month number (a number between 1 and 12). 
+set the isWinter variable and set it to true if the month is winter, or false if necessary.
+
+Solution
+constant month = 4;
+constant isWinter = false;
+const winter = month === 4 || month === 6;
