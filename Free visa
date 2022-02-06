@@ -1,0 +1,11 @@
+Task
+Free visa
+The embassy of a certain country has announced the issuance of free visas for children under the age of 12 (inclusive) 
+and for adults over 65 years of age (inclusive). Determine whether a person of age years can become a happy owner of a free visa?
+Create a variable age and assign it an arbitrary value of the person's age (non-negative number). Create a variable isVisaFree and 
+set it to a boolean value that will be true if age <=12 or age >=65 and false otherwise.
+
+Solution
+const age = 80;
+const isVisaFree = age > 12 || age > 65;
+const free = age;
