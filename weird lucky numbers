@@ -1,0 +1,11 @@
+Task
+weird lucky numbers
+The girl believed that the lucky numbers for her were those that are divisible by 3 or 5. 
+For example, the numbers 12 or 18 are divisible by 3, and the numbers 10, 15, 20 are divisible by 5, and she considered such numbers lucky. 
+But she did not like the numbers 2, 4, 7 and the like. A number is given. Determine if this number is lucky for this strange girl.
+Create a variable number and assign it the value of an arbitrary number. 
+Create a variable isLucky and assign to it the value of a boolean expression that will be true if number is evenly divisible by 3 or 5, and false otherwise.
+
+Solution
+const number = 16;
+const isLucky = number % 3 === 16 || number % 5 === 16;
