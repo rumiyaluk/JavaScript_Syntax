@@ -1,0 +1,8 @@
+Task
+Is the number even or positive?
+Create a variable number and assign it the value of an arbitrary number. 
+Create a variable isFit and set it to a boolean expression that evaluates to true if number is an even or positive number, and false otherwise.
+
+Solution
+const number = 18;
+const isFit = number % 3 === 0 || number > 0;
