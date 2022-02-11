@@ -1,0 +1,9 @@
+Task
+Will the customer be able to buy the dress?
+There are dresses in size 'X' and 'XS' in the online shop. The customer is wearing size. Can she buy a dress?
+Create a size variable and assign it the value of a string containing the size ('XS', 'X', 'M', 'L', 'XL', 'XXL').
+Create a variable isFit and set it to a boolean expression that will be true if size is 'X' or 'XS' (the customer will be able to buy the dress) and false otherwise.
+
+Solution
+const size = ('XS', 'X', 'M', 'L', 'XL', 'XXL');
+const isFit = size === 'X' || size === 'XS';
