@@ -1,0 +1,10 @@
+Task
+At what age is a person not a student?
+A student is considered to be a person between the ages of 6 and 18 inclusive. At what age is a person not a student?
+Create a variable age and assign it an arbitrary value of the person's age (non-negative number). 
+Create a variable isNotSchoolAge and set it to a boolean expression that evaluates to true if age < 6 or age > 18 and false otherwise.
+
+
+Solution
+const age = 10;
+const isNotSchoolAge = age < 6 || age > 18;
