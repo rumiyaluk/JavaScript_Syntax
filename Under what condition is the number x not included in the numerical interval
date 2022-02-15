@@ -1,0 +1,13 @@
+Task
+Under what condition is the number x not included in the numerical interval [a, b]?
+
+The number x does not belong to the numerical interval [a, b] if x < a or x > b.
+Create a variable x and assign it the value of an arbitrary number. 
+Create variables a and b (borders of the numeric range) and assign them the value of arbitrary numbers (a < b).
+Create a notIncluded variable and assign it a boolean expression value that is true if x < a or x > b and false otherwise.
+
+Solution
+const x = 10;
+const a = 4;
+const b = 6;
+const notIncluded = x < a || x > b;
