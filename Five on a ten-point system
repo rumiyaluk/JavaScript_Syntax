@@ -1,0 +1,9 @@
+Task
+Five on a ten-point system
+After the introduction of a 10-point grading system, the mark "excellent" can be considered the mark "9" or "10".
+Create a mark variable and assign it the value of the mark on a scale of 10 
+(a number between 1 and 10). Create a variable isExcellent and give it a boolean value that will be true if the score is 9 or 10 and false otherwise.
+
+Solution
+const mark = 9;
+const isExcellent = mark === 9 || mark === 10;
