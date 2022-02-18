@@ -1,0 +1,10 @@
+Task
+
+Is at least one of the numbers a, b positive?
+Create variables a and b and assign arbitrary numbers to them.
+Create a variable arePositive and assign it the value of a boolean expression that will be true if a > 0 or b > 0 and false otherwise.
+
+Solution
+const a = 6;
+const b = -3;
+const arePositive = a > 0 || b < 0;
