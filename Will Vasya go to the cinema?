@@ -1,0 +1,9 @@
+Task
+Will Vasya go to the cinema?
+Parents promised Vasya a trip to the cinema if the mark in mathematics is 4 or 5. Will Vasya go to the cinema?
+Create a mark variable and assign it the value of the mark on a 5-point system (a number from 1 to 5). 
+Create a variable isCinema and set it to a boolean expression that evaluates to true if the score is 4 or 5 and false otherwise.
+
+Solution
+const mark = 5;
+const isCinema = mark === 4 || mark === 5;
