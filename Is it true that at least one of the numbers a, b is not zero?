@@ -1,0 +1,9 @@
+Task
+Is it true that at least one of the numbers a, b is not zero?
+Create variables a and b and assign them the values of arbitrary numbers.
+Create Arenonzeros variable and assign the value of a logical expression that will be true if A is not 0 or b not equal to 0, and FALSE - otherwise.
+
+Solution
+Const a = 5;
+const b = 7;
+Const ArenonZeros = A! == 0 || b! == 0;
