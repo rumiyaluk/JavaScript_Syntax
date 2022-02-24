@@ -1,0 +1,9 @@
+Task
+Is it true that the sum or product of numbers a, b is equal to zero?
+Create variables a and b and assign arbitrary numbers to them.
+Create a result variable and assign it the value of a boolean expression that will be true if a + b = 0 or a * b = 0 and false otherwise.
+
+Solution
+const a = 2;
+const b = -1;
+const result = a + b === 0 || a * b === 0;
