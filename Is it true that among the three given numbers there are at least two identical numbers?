@@ -1,0 +1,10 @@
+Task
+Is it true that among the three given numbers there are at least two identical numbers?
+Create variables a, b, c and assign arbitrary numbers to them.
+Create a result variable and assign it the value of a boolean expression that will be true if a = b or a = c or b = c and false otherwise.
+
+Solution
+const a = 5;
+const b = -3;
+const c = 5;
+const result = a === b || a === c || b === c;
