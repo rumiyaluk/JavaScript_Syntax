@@ -1,0 +1,9 @@
+Task
+Is it true that the word begins or ends with the letter "a"?
+Create a str variable and assign an arbitrary string value.
+Create a result variable and assign it the value of a boolean expression that evaluates to true if the first 
+or last letter of the string is a, and false otherwise.
+
+Solution
+const str = 'Ava';
+const result = str[0] === 'a' || str[str.length -1] === 'a';
