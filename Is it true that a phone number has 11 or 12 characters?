@@ -1,0 +1,9 @@
+Task
+Is it true that a phone number has 11 or 12 characters?
+When registering on the site, you must enter a phone number, and the length of the number must be 11 or 12 characters.
+Create a phone variable and assign a value to an arbitrary string containing a phone number. 
+Create a variable isPhoneCorrect and set it to a boolean expression that evaluates to true if the length of the phone string is 11 or 12, and false otherwise.
+
+Solution
+const phone = '+00712345678';
+const isPhoneCorrect = phone.length === 11 || phone.length === 12;
