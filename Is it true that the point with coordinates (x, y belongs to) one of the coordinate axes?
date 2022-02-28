@@ -1,0 +1,9 @@
+Task
+Is it true that the point with coordinates (x, y belongs to) one of the coordinate axes?
+The point with coordinates (x, y) lies on one of the coordinate axes if x = 0 or y = 0.
+calculate the variables x and y and assign them the state values of numbers. 
+set up the isBelongToAxes variable and give it a boolean value that will be true if x = 0 or y = 0 and false in this case.
+Solution
+constant x = 5;
+constant y = 10;
+const isBelongToAxes = x === 0 || y === 0;
