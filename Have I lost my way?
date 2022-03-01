@@ -1,0 +1,10 @@
+Task
+Have I lost my way?
+The city can be reached by one of two roads: road number 1 or road number 95. 
+You are driving along the road number roadNumber. Can you take this road to the city?
+change the variable named roadNumber and assign it the value of the approaching number (road numbers). 
+change the isRightRoad variable and set it to a boolean expression that will be true if the number of roads is 1 or 95 , and false if the case exists.
+
+Solution
+const roadNumber = 5;
+const isRightRoad = roadNumber === 1 || road_number === 95;
