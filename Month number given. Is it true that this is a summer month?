@@ -1,0 +1,9 @@
+Task
+Month number given. Is it true that this is a summer month?
+set up a month variable and give it the month number (an integer between 1 and 12). 
+change the isSummer variable and give it a boolean expression that will evaluate to true if the month is summer 
+(i.e. the month number is greater than or equal to 6 and less than or equal to 8), and false if the case exists.
+
+Solution
+constant month = 7;
+const isSummer = month >= 6 && month <= 8;
