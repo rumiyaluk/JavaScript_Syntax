@@ -1,0 +1,8 @@
+Task
+Does the given number belong to the range [0, 10], including finite numbers?
+The number x belongs to the interval [0, 10] if the following condition is true: x >= 0 && x <= 10.
+Create a variable num and assign it the value of an arbitrary number. Create a variable isBelongs and assign 
+it a boolean expression that evaluates to true if num belongs to the given interval [0, 10] or false otherwise.
+Solution
+const num = 5;
+const isBelongs = num >= 0 && num <= 10;
