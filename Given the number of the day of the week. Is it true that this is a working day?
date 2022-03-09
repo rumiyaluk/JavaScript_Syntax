@@ -1,0 +1,8 @@
+Task
+Given the number of the day of the week. Is it true that this is a working day?
+Create a variable day and assign it the number of the day of the week (an integer between 1 and 7). 
+Create a variable isWorkDay and assign it a boolean expression that evaluates to true if the day is a work day 
+(i.e. the day number is a number between 1 and 5 inclusive) and false otherwise.
+Soution
+const day = 6;
+const isWorkDay = day >= [1,5] && day <= [6,7];
