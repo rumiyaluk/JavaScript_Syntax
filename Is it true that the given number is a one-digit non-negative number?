@@ -1,0 +1,8 @@
+Task
+Is it true that the given number is a one-digit non-negative number?
+Given an arbitrary number. Determine if it is true that this is a single-valued non-negative number, i.e. a number from 0 to 9.
+Create a variable number and assign it the value of an arbitrary integer. 
+Create a variable isOneDigitPositive and assign it a boolean expression that evaluates to true if the number is between 0 and 9 inclusive, and false otherwise.
+Solution
+const number = 5;
+const isOneDigitPositive = number >= 0 && number <= 9;
