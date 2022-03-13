@@ -1,0 +1,9 @@
+Task
+Is it true that the given number is a one-digit negative number?
+Given an arbitrary number. Determine if it is true that this is a one-digit negative number, i.e. a number from -9 to -1.
+Create a variable number and assign it the value of an arbitrary integer. 
+Create a variable isOneDigitNegative and assign it a boolean expression that evaluates to true if the number is between -9 and -1 inclusive, and false otherwise.
+
+Solution
+const number = 3;
+const isOneDigitNegative = number >= -9 && number <= -1;
