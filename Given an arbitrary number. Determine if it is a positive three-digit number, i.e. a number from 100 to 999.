@@ -1,0 +1,8 @@
+Task
+Given an arbitrary number. Determine if it is a positive three-digit number, i.e. a number from 100 to 999.
+Create a variable number and assign it the value of an arbitrary integer. 
+Create a variable isThreeDigitPositive and assign it a boolean expression that evaluates to true 
+if the number is between 100 and 999 inclusive, and false otherwise.
+Solution
+const number = 356;
+const isThreeDigitPositive = number >= 100 && number <= 999;
