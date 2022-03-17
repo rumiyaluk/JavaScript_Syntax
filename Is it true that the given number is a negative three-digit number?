@@ -1,0 +1,11 @@
+Task
+Is it true that the given number is a negative three-digit number?
+Given an arbitrary number. Determine if it is true that this is a negative three-digit number, i.e. a number between -999 and -100.
+Create a variable number and assign 
+it the value of an arbitrary integer. 
+Create a variable isThreeDigitNegative and assign it a boolean expression that evaluates to true 
+if the number is between -999 and -100 inclusive, and false otherwise.
+
+Solution
+const number = -450;
+const isThreeDigitNegative = number >= -999 && number <= -100;
