@@ -1,0 +1,9 @@
+Task
+Is it true that the given number is a positive odd number?
+Given an arbitrary number. Determine if it is a positive odd number.
+Create a variable number and assign it the value of an arbitrary integer. 
+Create a variable isPositiveOdd and assign it a boolean expression that evaluates to true if the number is odd and positive and false otherwise.
+
+Solution
+const number = 21;
+const isPositiveOdd = number % 2 !== 0 && number > 0;
