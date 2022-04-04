@@ -1,0 +1,10 @@
+Task
+Given the age of the person. Is the person a student?
+A student is considered to be a person between the ages of 6 and 18 inclusive.
+Create a variable age and assign it the value of an arbitrary positive number. 
+Create a variable isStudent and assign it a boolean expression that will evaluate to true if the age is school 
+(i.e. age is a number from 6 to 18 inclusive), and false otherwise.
+
+Solution
+const age = 15;
+const isStudent = age >= 6 && age <= 18;
