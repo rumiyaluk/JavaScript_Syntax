@@ -1,0 +1,11 @@
+Task
+Does the given number belong to the range [a, b], including finite numbers?
+The number x belongs to the interval [a, b] if the following condition is satisfied: x >= a && x <= b.
+Create a variable x and assign it the value of an arbitrary number. Create variables a and b and assign arbitrary numbers (a < b) to them.
+Create a variable isBelongs and assign it a boolean expression that evaluates to true if x belongs to the given interval [a, b] or false otherwise.
+
+Solution
+const x = 5;
+const a = 3;
+const b = 7;
+const isBelongs = x >= a && x <= b;
