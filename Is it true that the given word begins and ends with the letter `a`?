@@ -1,0 +1,8 @@
+Task
+Is it true that the given word begins and ends with the letter `a`?
+Create a variable str and assign it the value of an arbitrary string. 
+Create an isCorrect variable and assign it a boolean expression that evaluates to true if the first and last letters of the string are a, or false otherwise.
+
+Solution
+const str = 'Abba'
+const isCorrect = str[0] === 'a' && str[str.legth -1] === 'a';
