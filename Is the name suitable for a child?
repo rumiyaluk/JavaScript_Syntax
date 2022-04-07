@@ -1,0 +1,10 @@
+Task
+Is the name suitable for a child?
+The parents decided to name the child with a 5-letter name, and that it must begin with the letter A. Would name be suitable for this family as a child's name?
+Create a variable name and assign it the value of an arbitrary string (name). 
+Create an isCorrect variable and assign it a boolean expression that evaluates to true 
+if the first letter of the name is A and the length of the name is 5, and false otherwise.
+
+Solution
+const name = 'Alice';
+const isCorrect = name[0] === 'A' && name.length === 5;
