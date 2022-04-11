@@ -1,0 +1,10 @@
+Task 
+The strange language of the natives
+The language of the natives from a certain tribe consists of words 4 letters long, and all words begin and end with the same letter. "amba", 
+"itli", "uggu" - these are some words from their vocabulary. Determine if the given word can be included in the dictionary of this tribe?
+Create a word variable and assign it the value of an arbitrary string (word). Create an isCorrect variable and assign 
+it a boolean expression that evaluates to true if the word is 4 characters long and the first letter of the word is equal to the last letter, and false otherwise.
+
+Solution
+constword = 'Alla';
+const isCorrect = word.length === 4 && word[0] === word[word.length -1];
