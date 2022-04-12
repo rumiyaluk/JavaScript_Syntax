@@ -1,0 +1,10 @@
+Task
+Is it true that both given numbers are positive?
+You are given two numbers a and b. Determine if both numbers are positive?
+Create variables a and b and assign arbitrary numbers to them. 
+Create a variable arePositive and assign it a boolean expression that evaluates to true if a and b are positive, or false otherwise.
+
+Solution
+const a = 5;
+const b = 10;
+const arePositive = a > 0 && b > 0;
