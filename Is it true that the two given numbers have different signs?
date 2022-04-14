@@ -1,0 +1,10 @@
+Task
+Is it true that the two given numbers have different signs?
+You are given two numbers a and b. Determine if these numbers have different signs (one of them is positive, the other is negative).
+Create variables a and b and assign them the values of arbitrary numbers (not equal to zero). Create a variable haveDifferentSigns 
+and assign it a boolean expression that evaluates to true if a and b have different signs, or false otherwise.
+
+Solution
+const a = -4;
+const b = 6;
+const haveDifferentSigns = a < 0 && b > 0 || a > 0 && y < 0;
