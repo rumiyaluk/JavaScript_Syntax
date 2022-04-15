@@ -1,0 +1,9 @@
+Task
+Is it true that two given numbers have the same sign (both positive or both negative)?
+You are given two numbers a and b. Determine if these numbers have the same sign (both positive or both negative).
+Create variables a and b and assign them the values of arbitrary numbers (not equal to zero). 
+Create a variable haveTheSameSign and assign it a boolean expression that evaluates to true if a and b are both negative or both positive, or false otherwise.
+Solution
+const a = 3;
+const b = 6;
+const haveTheSameSign = a < 0 && b < 0 || a > 0 && b > 0;
