@@ -1,0 +1,10 @@
+Task
+Is it true that both data numbers are negative?
+You are given two numbers a and b. Determine if both numbers are negative?
+calculate the variables a and b and assign them the values of state numbers. 
+change the areNegative variable and give it a boolean expression that evaluates to true if a and b are negative, or false in this case.
+
+Solution
+constant = -2;
+constant b = -4;
+const areNegative = a < 0 && b < 0;
