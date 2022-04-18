@@ -1,0 +1,15 @@
+Task
+First coordinate quarter
+The French mathematician René Descartes (1596–1650) suggested specifying the position of a point on a plane using two coordinates. 
+The abscissa axis "Ox" is the horizontal axis. The y-axis is the vertical axis.
+The coordinate axes divide the plane into 4 angles, which are called coordinate quarters. 
+The quarter formed by the positive semiaxes (upper right corner) is considered the first (I). 
+The point (x, y) belongs to the first coordinate quadrant if x > 0 and y > 0.
+Given a point with coordinates (x, y). Is it true that the point is in the first coordinate quadrant?
+Create variables x and y and assign arbitrary number values ​​to them. 
+Create a variable isFirst and assign it a boolean expression that evaluates to true if x and y are positive, or false otherwise.
+
+Solution
+const x = 5;
+const y = 7;
+const isFirst = x > 0 && y > 0;
