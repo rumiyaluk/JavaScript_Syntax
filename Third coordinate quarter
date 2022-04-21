@@ -1,0 +1,10 @@
+Task
+Third coordinate quarter
+Given a point with coordinates (x, y). Is it true that the point is in the third coordinate quadrant? 
+The point (x, y) belongs to the third coordinate quadrant if x < 0 and y < 0.
+Create variables x and y and assign arbitrary number values to them. Create a variable isThird and assign it a boolean expression,
+which will be true if x < 0 and y < 0, or false otherwise.
+Solution
+const x = 15;
+const y = 25;
+const isThird = x < 0 && y < 0;
