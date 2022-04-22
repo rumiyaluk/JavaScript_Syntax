@@ -1,0 +1,10 @@
+Task
+Origin
+Given a point with coordinates (x, y). Is it true that the point is the origin? The point (x, y) is the origin if x = 0 and y = 0.
+Create variables x and y and assign arbitrary number values to them. 
+Create an isOrigin variable and assign it a boolean expression that evaluates to true if x = 0 and y = 0, or false otherwise.
+
+Solution
+const x = 20;
+const y = 30;
+const isOrigin = x === 0 && b === 0;
