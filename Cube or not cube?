@@ -1,0 +1,12 @@
+Task
+Cube or not cube?
+A cube is a regular polyhedron, each face of which is a square, i.e. this is a three-dimensional body, 
+in which length = width = height. Dimensions x, y, z are given. Determine if these numbers can be the lengths of the sides of the cube. 
+The numbers x, y, z can be the lengths of the sides of a cube if they are all equal.
+Create variables x, y, and z and assign arbitrary positive numbers to them. 
+Create a variable isCube and assign it a boolean expression that evaluates to true if x = y and y = z, or false otherwise.
+Solution
+const x = 5;
+const y = 5;
+const z = 5;
+const isCube = x === y && y === z;
