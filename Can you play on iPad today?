@@ -1,0 +1,10 @@
+Task
+Can you play on iPad today?
+You have very strict parents who have made a rule that you can only play on the tablet if you pass the math score and complete all your homework.
+Create a grade variable and set it to true (grade is fair) or false (grade is poor).
+Create a variable isHomeworkDone and set it to true (all homework completed) or false (homework not completed).
+Create a variable canIPlay and assign it a condition for checking access to the tablet.
+Solution
+const grade = true;
+const isHomeworkDone = true;
+const canIPlay = grade && isHomeworkDone;
