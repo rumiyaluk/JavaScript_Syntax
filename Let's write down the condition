@@ -1,0 +1,4 @@
+Task
+Let's write down the condition: The value x is odd. The odd condition can be written as follows:
+console.log(x % 2 !== 0);
+console.log( !(x % 2 === 0) );
