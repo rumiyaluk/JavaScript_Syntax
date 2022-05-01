@@ -1,0 +1,7 @@
+Task
+The opposite of zero
+Create a value variable and assign the value 0 to it. Create a result variable and assign it a 
+boolean expression that returns the opposite value of the value variable.
+Solution
+const value = 0;
+const result = !value;
