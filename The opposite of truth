@@ -1,0 +1,7 @@
+Task
+The opposite of truth
+Create a value variable and give it the value true. C
+reate a result variable and assign it a boolean expression that returns the opposite value of the value variable.
+Solution
+const value = true;
+const result = !value;
