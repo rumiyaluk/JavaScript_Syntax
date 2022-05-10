@@ -1,0 +1,7 @@
+Task
+What is the result of negating any non-zero number?
+Create a value variable and assign it the value of any non-zero number. 
+Create a result variable and assign it a boolean expression that returns the opposite value of the value variable.
+Solution
+const value = 15;
+const result = !value;
