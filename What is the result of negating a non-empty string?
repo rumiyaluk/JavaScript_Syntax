@@ -1,0 +1,7 @@
+Task
+What is the result of negating a non-empty string?
+Create a value variable and assign it the value of an arbitrary non-empty string. 
+Create a result variable and assign it a boolean expression that returns the opposite value of the value variable.
+Solution
+const value = 'cat';
+const result = !value;
