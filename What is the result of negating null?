@@ -1,0 +1,7 @@
+Task
+What is the result of negating null?
+Create a value variable and set it to null. 
+Create a result variable and assign it a boolean expression that returns the opposite value of the value variable.
+Solution
+const value = null;
+const result = !value;
