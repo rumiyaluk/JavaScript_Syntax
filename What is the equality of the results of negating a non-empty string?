@@ -1,0 +1,8 @@
+Task
+What is the equality of the results of negating a non-empty string?
+change the cost variable and give it a non-empty string value. 
+change the result variable and assign a boolean expression that returns the opposite value of the setting.
+
+Solution
+constant value = 'cat';
+constant result = !value;
