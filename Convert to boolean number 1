@@ -1,0 +1,6 @@
+Task
+Convert to boolean number 1
+Create a value variable and give it the value 1. 
+Create a result variable and give it a boolean expression that returns the value of value converted to a boolean with a double not (!!).
+const value = 1;
+const result = !!value;
