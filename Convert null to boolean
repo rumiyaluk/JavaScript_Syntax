@@ -1,0 +1,7 @@
+Convert null to boolean
+Create a value variable and set it to null. 
+Create a result variable and assign it a boolean expression that returns the value of value converted to a boolean type with a double "not" (!!).
+
+Solution
+const value = null;
+const result = !!value;
