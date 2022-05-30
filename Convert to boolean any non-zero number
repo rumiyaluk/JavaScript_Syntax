@@ -1,0 +1,8 @@
+Task
+Convert to boolean any non-zero number
+Create a value variable and assign it a value of an arbitrary number not equal to 0. 
+Create a result variable and assign it a boolean expression that returns the value of value converted to a boolean type with a double not (!!).
+
+Solution
+const value = 5;
+const result = !!value;
