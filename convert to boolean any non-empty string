@@ -1,0 +1,8 @@
+Task
+convert to boolean any non-empty string
+Create a value variable and assign it the value of an arbitrary non-empty string. 
+Create a result variable and assign it a boolean expression that returns the value of value converted to a boolean type with a double "not" (!!).
+
+Solution
+const value = 'Pet';
+const result = !!value;
