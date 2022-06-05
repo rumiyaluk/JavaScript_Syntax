@@ -1,0 +1,8 @@
+Task
+Boolean undefined value
+Create a value variable and assign it the value undefined. 
+Create a result variable and assign it a boolean expression that returns the value of value converted to a boolean type with a double "not" (!!).
+
+Solution
+const value = undefined;
+const result = !!value;
