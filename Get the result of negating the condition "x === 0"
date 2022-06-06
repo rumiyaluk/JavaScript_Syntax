@@ -1,0 +1,9 @@
+Task
+Get the result of negating the condition "x === 0"
+Create a variable x and assign it the value of the number of an arbitrary number. 
+Create a variable negation and assign it the result of negating the condition "x is 0". Those. the variable negation will be true if x is not equal to 0 and false if x is equal to 0.
+
+Solution
+const x = 5;
+const negation = x !== 0;
+const negation = !(x === 0);
