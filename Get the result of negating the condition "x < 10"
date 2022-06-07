@@ -1,0 +1,9 @@
+Task
+Get the result of negating the condition "x < 10"
+Create a variable x and assign it the value of the number of an arbitrary number. 
+Create a variable negation and assign it the result of the negation of the condition "x < 10". Those. the variable negation will be true if x is greater than or equal to 10 and false if x is less than 10.
+
+
+Solution
+const x = 10;
+const negation = !(x < 10);
