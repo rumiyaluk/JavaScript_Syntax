@@ -1,0 +1,8 @@
+Task
+Get the result of negating the condition "x >= 100"
+Create a variable x and assign it the value of the number of an arbitrary number. 
+Create a negation variable and assign it the result of negating the "x >= 100" condition.
+
+Solution
+const x = 15;
+const negation = !(x >= 100);
