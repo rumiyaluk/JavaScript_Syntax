@@ -1,0 +1,8 @@
+Task
+Get the result of negating the conditions "the number x is accepted as a two-digit number"
+change the variable x and assign a value to going to jail. 
+calculate the negation variable and assign to it the result of the negation of the condition: "the number x can be applied as a two-digit number", i.e. conditions "x >= 10 && x <= 99". Those. the negation variable will be true if x does not accept a two-digit number, and false if x accepts a two-digit number.
+
+Solution
+constant x = 60;
+constant negation = !(x >= 10 && x <= 99);
