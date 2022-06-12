@@ -1,0 +1,8 @@
+Task
+Get the result of negating the condition "number x is a negative number"
+Create a variable x and assign it the value of the number of an arbitrary number. 
+Create a variable negation and assign to it the result of the negation of the condition: "the number x is a negative number", i.e. conditions "x < 0".
+
+Solution
+const x = 50;
+const negation = !(x < 0);
