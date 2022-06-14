@@ -1,0 +1,8 @@
+Task
+Use the logical NOT operator to write the condition "x is not a positive number"
+Create a variable x and assign it the value of the number of an arbitrary number. 
+Create a condition variable and assign it the condition: "x is not a positive number", i.e. write the negation of the condition "x is a positive number".
+
+Solution
+const x = 25;
+const condition = !(x > 0);
