@@ -1,0 +1,8 @@
+Task
+Using the logical operator DO NOT write the condition "The event will not occur in April"
+Create a month variable and assign it an integer value between 1 and 12 (the number of the month). 
+Create a condition variable and assign the condition to it: "the event did not occur in April", i.e. write down the negation of the condition "month === 4".
+
+Solution
+const month = 6;
+const condition = !(month === 4);
