@@ -1,0 +1,9 @@
+Task
+Write down the condition "The variable has a non-numeric value"
+Create a value variable and assign it a value of any type: "number", "string", or "boolean". 
+Create a variable isNotANumber and assign it the condition: "the type of the value variable is not a number", i.e. write down the negation of the condition "the type of variable value is number"
+
+Solution
+const value = 'Hello';
+const isNotANumber = ! (typeof value === 'number');
+const isNotANumber = typeof value !== 'number';
