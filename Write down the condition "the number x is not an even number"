@@ -1,0 +1,8 @@
+Task
+Write down the condition "the number x is not an even number"
+Create a variable x and assign it the value of the number of an arbitrary integer. 
+Create a variable negation and assign to it the result of the negation of the condition: "number x is an even number", i.e. conditions "x % 2 === 0".
+
+Solution
+const x = 40;
+const negation = !(x % 2 === 0);
