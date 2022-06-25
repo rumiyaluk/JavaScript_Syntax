@@ -1,0 +1,8 @@
+Task
+Write down the condition "the number x is not a multiple of 3"
+Create a variable x and assign it the value of the number of an arbitrary integer. 
+Create a variable isNotMultipleOf3 and assign to it the result of negating the condition: "number x is a multiple of 3", i.e. conditions "x % 3 === 0".
+
+Solution
+const x = 55;
+const isNotMultipleOf3 = !(x % 3 === 0);
