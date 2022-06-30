@@ -1,0 +1,9 @@
+Task
+Determine if a number is divisible by 3 without a remainder.
+The number num is given. Get a description of the number in the description variable: "multiple of 3" 
+(if the number is a multiple of 3) or "not a multiple of 3" if the number is not a multiple of 3.
+Create a variable num and assign it the value of an arbitrary integer. Create a description variable. Write an if - else command in which check the condition num % 3 === 0. If the condition is true, assign the value "multiple of 3" to the variable description, otherwise, assign the value "not a multiple of 3" to the variable description.
+
+Solution
+const num = 9;
+let description; if (num % 3 === 0) { description = 'multiple of 3';} else { description = 'not a multiple of 3';}
