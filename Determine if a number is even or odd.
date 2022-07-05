@@ -1,0 +1,9 @@
+Task
+Determine if a number is even or odd.
+The number num is given. Get the description of the number in the description variable: 'even' or 'odd'.
+Create a variable num and assign it the value of an arbitrary integer. Create a description variable. 
+Write an if - else command to check if the condition num % 2 === 0 is met. If the condition is true (if the condition is true), set the description variable to 'even', otherwise set the description variable to 'odd'.
+
+Solution
+const num = 2;
+let description; if (num % 2 === 0) {description = 'even';} else {description = 'odd';}
