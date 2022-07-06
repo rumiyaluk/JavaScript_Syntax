@@ -1,0 +1,10 @@
+Task
+Determine if a number is positive or negative.
+The number num is given. Get the description of the number in the description variable: 'positive' or 'negative'.
+Create a variable num and assign it the value of an arbitrary number. Create a description variable. 
+Write an if - else command in which check the condition num > 0. If the condition is true (if the condition is true), set the value 'positive' to the description variable, otherwise set the value 'negative' to the description variable.
+
+Solution
+const num = 5;
+let description;
+if (num > 0) {description = 'positive';} else {description = 'negative';}
