@@ -1,0 +1,11 @@
+
+Task
+Determine if a person is an adult.
+The person's age is given. Set the result variable to "adult" (if age >= 18) or "not adult" otherwise.
+Create a variable age and assign it the value of an arbitrary positive number. 
+Create a result variable. Write an if - else command in which check the age >= 18 condition. If the condition is true, assign the value "adult" to the result variable, otherwise assign the value "not adult" to the result variable.
+
+Solution
+const age = 10;
+let result;
+if (age >= 18) {result = 'adult';} else {result = 'not adult';}
