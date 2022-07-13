@@ -1,0 +1,10 @@
+Task
+Determine whether a person is a preschooler.
+The age of the person is given Age. Get the value of "Presschooler" (if the age <6) or "Not Presschooler", otherwise, in the other hand, will.
+Create a variable Age and assign it the value of an arbitrary positive number. Create a result variable. 
+Write the IF -Else command, in which, if you fulfill the condition (Age <6) of the Result variable, assign the value of "Presschool", otherwise assult a variable "NOT PRESCHOler".
+
+Solution
+const age = 15;
+Let Result;
+if (Age <6) {Result = 'Presschooler';} Else {Result = 'Not Presschooler';}
