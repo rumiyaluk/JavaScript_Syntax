@@ -1,0 +1,10 @@
+Task
+Determine if the month is spring.
+The month number is given. Set the season variable to "spring" (if the month is a number between 3 and 5 inclusive) or "not spring" otherwise.
+Create a month variable and assign it an arbitrary integer value between 1 and 12. 
+Create a season variable. Write an if - else command in which If the condition (month >=3 && month <=5) is true, set season to "spring", otherwise set season to "not spring".
+
+Solution
+const month = 10;
+let season;
+if (month >=3 && month <=5) {season = 'spring';} else {season = 'not spring';}
