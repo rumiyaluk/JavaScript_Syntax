@@ -1,0 +1,10 @@
+Task
+Determine if the month is summer.
+The month number is given. Set the season variable to "summer" (if the month is a number between 6 and 8 inclusive) or "not summer" otherwise.
+Create a month variable and assign it an arbitrary integer value between 1 and 12. Create a season variable. 
+Write an if - else command in which If the condition (month >=6 && month <=8) is true, set season to "summer", otherwise set season to "not summer".
+
+Solution
+const month = 4;
+let season;
+if (month >=6 && month <=8) {season = 'summer';} {season = 'not summer';}
