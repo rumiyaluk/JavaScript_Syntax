@@ -1,0 +1,10 @@
+Task
+Determine if the year belongs to the 21st century.
+The 21st century begins in 2001 and ends in 2100. The year number is given. Set answer to "XXI" (if the year is in the 21st century) or "not XXI" otherwise.
+Create a variable year and assign it the value of an arbitrary integer (the number of the year). 
+Create an answer variable. Write an if - else command where If the condition (year >= 2001 && year <= 2100) is true, set answer to "XXI", otherwise set answer to "not XXI".
+
+Solution
+const year = 2020;
+let answer;
+if (year >= 2001 && year <= 2100) {answer = 'XXI';} else {answer = 'not XXI';}
