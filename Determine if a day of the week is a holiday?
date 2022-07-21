@@ -1,0 +1,11 @@
+Task
+Determine if a day of the week is a holiday?
+Given the number of the day of the week day. Set answer to "weekend" (if day number is 6 or 7) or "not weekend" otherwise.
+Create a day variable and assign it an arbitrary integer value between 1 and 7 (the number of the day of the week). 
+Create an answer variable. Write an if - else command in which If the condition (day === 6 || day === 7) is true, 
+set the answer variable to "weekend", otherwise, set the value to "not weekend" to the answer variable.
+
+Solution
+const day = 3;
+let answer;
+if (day === 6 || day === 7) {answer = 'weekend';} else {answer = 'not weekend';}
