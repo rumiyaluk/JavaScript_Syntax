@@ -1,0 +1,11 @@
+Task
+Find the smaller of two numbers.
+You are given two numbers x and y. Set the variable min to a smaller number.
+Create variables x and y and assign arbitrary number values to them. 
+Create a min variable. Write an if - else command in which If the condition (x < y) is true, assign the value x to the min variable, otherwise assign the value y to the min variable.
+
+Solution
+const x = 2;
+const y = 4;
+let min;
+if (x < y) {min = x;} else {min = y;}
