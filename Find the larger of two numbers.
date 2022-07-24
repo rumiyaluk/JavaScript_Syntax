@@ -1,0 +1,12 @@
+Task
+Find the larger of two numbers.
+You are given two numbers x and y. Set the variable max to a larger number.
+Create variables x and y and assign arbitrary number values to them. 
+Create a variable max. Write an if - else command in which If the condition (x > y) is true, 
+assign the value x to the variable max, otherwise assign the value y to the variable max.
+
+Solution
+const x = 5;
+const y = 10;
+letmax;
+if (x > y) {max = x;} else {max = y;}
