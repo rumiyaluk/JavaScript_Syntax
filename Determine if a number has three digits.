@@ -1,0 +1,10 @@
+Task
+Determine if a number has three digits.
+The number num is given. Get the description of the number in the description variable: "three-digit number" (if the number is three-digit), 
+or "not a three-digit number" if the number is not three-digit.
+Create a variable num and assign it the value of an arbitrary integer. 
+Create a description variable. Using the if-else command, get the value in the description variable: "three-digit number", if the number is three-digit, i.e. -999 to -100, or 100 to 999, "not a three-digit number", otherwise.
+Solution
+const num = 155;
+let description;
+if (num >= -999 && num <= -100 || num >= 100 && num <= 999) { description = 'three-digit number';} else { description = 'not a three-digit number';}
