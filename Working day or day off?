@@ -1,0 +1,10 @@
+Task
+Working day or day off?
+Given the number of the day of the week day. Set the result variable to "work day" (if the day number is between 1 and 5) or "weekend" otherwise.
+Create a day variable and assign it an arbitrary integer value between 1 and 7 (the number of the day of the week). Create a result variable. 
+Using the if-else command, get the value in the result variable: "work day" if the day number is between 1 and 5 inclusive, "weekend" otherwise.
+
+Solution
+const day = 5;
+let result;
+if (day >= 1 && day <= 5 || day == 6.7) {result = 'work day';} else {result = 'weekend';}
