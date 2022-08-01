@@ -1,0 +1,9 @@
+Task
+Determine if the month is autumn.
+The month number is given. Set season to "fall" (if the month is a number between 9 and 11 inclusive) or "not a fall" otherwise.
+Create a month variable and assign it an arbitrary integer value between 1 and 12. Create a season variable. Using the if-else command, get the value in the season variable: "fall" if the month number is a number from 9 to 11 inclusive, "not a fall", otherwise.
+
+Solution
+const month = 9;
+let season;
+if (month >= 9 && month <= 11) {season = 'fall';} else {season = 'not fall';}
