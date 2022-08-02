@@ -1,0 +1,10 @@
+Task
+Temperature above or below zero
+The air temperature is known (in degrees Celsius). Get the message "The temperature is above zero" or "The temperature is below zero".
+Create a variable temperature and assign it a value of an arbitrary number. 
+Create a message variable. Using the if-else command, get the value in the message variable: "The temperature is above zero" if the temperature is above or equal to zero, and "The temperature is below zero" otherwise.
+
+Solution
+const temperature = 15;
+let message;
+if (temperature > 0 || temperature < 0) {message = 'The temperature is above zero';} else {message = 'The temperature is below zero';}
