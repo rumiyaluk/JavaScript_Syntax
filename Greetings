@@ -1,0 +1,10 @@
+Task
+Greetings
+Given a variable containing the client's gender: "male" or "female" Get a greeting: "Welcome mister" or "Welcome missis".
+Create a gender variable and assign it the string value 'male' or 'female'. Create a greeting variable. Using the if-else command, 
+get the value in the variable greeting: "Welcome mister" if gender = 'male' "Welcome missis" if gender = 'female'.
+
+Solution
+const gender = 'male';
+let greeting;
+if (gender === 'male' || gender === 'female') {greeting = 'Welcome mister';} else {greeting = 'Welcome missis';}
