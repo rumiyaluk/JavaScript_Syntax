@@ -1,0 +1,12 @@
+Task
+Santa Claus is coming to town...
+Given the number of the month and the number of the day. If month is 12 and day is 24, get the message "Santa Claus is coming to town", 
+or "Santa Claus is still making gifts", otherwise.
+Create a month variable and assign it an arbitrary integer value between 1 and 12. 
+Create a day variable and assign an arbitrary integer value between 1 and 31 to it. Create a message variable. Using the if-else command, get the value in the message variable: "Santa Claus is coming to town" if the month is 12 and the day is 24, and "Santa Claus is still making gifts" otherwise.
+
+Solution
+const month = 12;
+const day = 24;
+let message;
+if (month === 12 && day === 24) {message = 'Santa Claus is coming to town';} else {message = 'Santa Claus is still making gifts';}
