@@ -1,0 +1,11 @@
+Task
+Museum ticket
+Museum admission for children under 12 is $10, for children 12 and older and adults is $20. 
+Determine the ticket price if the person's age is known.
+Create a variable age and assign it the value of an arbitrary positive number (the person's age). 
+Create a price variable. Using the if-else command, get the value of the price variable: 10 if age < 12, 20 otherwise.
+
+Solution
+const age = 15;
+let price;
+if (age < 12 && age < 20) {price = 10;} else {price = 20;}
