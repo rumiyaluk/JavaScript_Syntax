@@ -1,0 +1,11 @@
+Task
+To take an umbrella or not to take?
+The variable rain is given, containing one of two values: true or false. Get the message: 
+"It is raining, take an umbrella" or "You can leave the umbrella at home".
+Create a rain variable and give it a boolean value of true or false. Create an advice variable. 
+Using the if-else command, get the advice variable to: "It is raining, take an umbrella" if rain = true, "You can leave the umbrella at home", otherwise.
+
+Solution
+const rain = true;
+let advice;
+if (rain) {advice = 'It is raining, take an umbrella';} else {advice = 'You can leave the umbrella at home';}
