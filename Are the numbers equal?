@@ -1,0 +1,14 @@
+Task
+Are the numbers equal?
+Two numbers are given. If the numbers are equal, get the message "The numbers are equal", otherwise get the message "The numbers are not equal".
+Create variables x and y and assign arbitrary number values to them.
+Create a message variable.
+Using the if-else command, get the value in the message variable:
+• "The numbers are equal", if the numbers are equal,
+• "The numbers are not equal", otherwise.
+
+Solution
+const x = 5;
+const y = 10;
+let message;
+if (x === y) {message = 'The numbers are equal';} else {message = 'The numbers are not equal';}
