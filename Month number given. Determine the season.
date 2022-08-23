@@ -1,0 +1,29 @@
+Task
+Month number given. Determine the season.
+Set the variable month and assign it an arbitrary integer value between 1 and 12 
+(the number of the month). Set the season variable. Using a sequence of nested if-else statements, 
+get the value in the season variable: "spring" (if the month is a number from 3 to 5 inclusive), "summer" 
+(if the month is a number from 6 to 8 inclusive), "fall" (if the month is - a number between 9 and 11 inclusive), "winter", otherwise.
+const month = 10;
+let season;
+if (month >= 3 && month <= 5)
+{season='spring';}
+else if (month >= 6 && month <= 8)
+{season='summer';}
+else if (month >= 9 && month <= 11)
+{season='fall';}
+number of the month. Determine the season.
+Set the variable month and assign it an arbitrary integer value between 1 and 12 
+(the number of the month). Set the season variable. Using a sequence of nested if-else statements, get the value in the season 
+variable: "spring" (if the month is a number from 3 to 5 inclusive), "summer" (if the month is a number from 6 to 8 inclusive), 
+"fall" (if the month is - a number between 9 and 11 inclusive), "winter", otherwise.
+
+Solution
+const month = 10;
+let season;
+if (month >= 3 && month <= 5)
+{season='spring';}
+else if (month >= 6 && month <= 8)
+{season='summer';}
+else if (month >= 9 && month <= 11)
+{season='fall';}
