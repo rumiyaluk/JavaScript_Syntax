@@ -1,0 +1,13 @@
+Task
+Children and adults.
+Set the variable age and assign it a non-negative value (the person's age). 
+Set the variable nameOfAge. Using a sequence of nested if-else statements, 
+get the value in the nameOfAge variable: "children" if age < 16, "young man" if age < 50, "old man" otherwise.
+
+Solution
+const age = 9;
+let nameOfAge;
+if (age < 10)
+{nameOfAge = 'children';}
+else if (age < 16)
+{nameOfAge = 'young man';}
