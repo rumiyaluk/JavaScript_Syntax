@@ -1,0 +1,16 @@
+Task
+The cost of breakfast on the cruise ferry.
+On the cruise ferry, breakfast costs EUR 10 for adults (18 years old and over), 
+EUR 6 for teenagers (12-17 years old), EUR 4 for children (6-11 years old), 
+and free of charge for children under 6 years old. Determine the cost of breakfast if the passenger's age is known.
+Set the variable age and assign it a non-negative value (the person's age). 
+Set the price variable. Using a sequence of nested if-else statements, 
+get the value of the price variable: 0 if age < 6, 4 if age <= 11, 6 if age <= 17, 10, otherwise.
+
+Solution
+const age = 15;
+let price;
+if (age < 6) {price = 0;}
+else if (age >= 6 && age <= 11) {price = 4;}
+else if (age >= 12 && age <= 17) {price = 6;}
+else if (age >= 18) {price = 10;}
