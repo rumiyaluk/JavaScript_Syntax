@@ -1,0 +1,13 @@
+Task
+Consular fee.
+The consular fee for obtaining a visa is: for children under 6 years old and for pensioners over 65 years old - 
+free of charge; for children from 6 to 12 years limited - 35 euros, for other citizens - 60 euros.
+Define the variable age and assign the value of a non-negative number (the person's age). 
+Set the Visa variable price. value of a sequence of nested if-else statements, priceOfVisa can be set to 0 if age < 6, or age > 65, 35 if age >= 6 and age <= 12, 60, in this case.
+constant age = 25;
+
+Spolution
+let the price of Visa;
+if (age < 6 || age > 65) {priceOfVisa = 0;}
+else if (age > 6 && age < 12) {priceOfVisa = 35;}
+else if (age => 13 && age <= 64) {priceOfVisa = 60;}
