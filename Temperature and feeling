@@ -1,0 +1,19 @@
+Task
+Temperature and feeling
+The air temperature is known (in degrees Celsius). Receive a message describing the sensation of temperature.
+Create a temp variable and assign it an arbitrary number between -40 and 60. Create a feeling variable. 
+Using a sequence of nested if-else statements, get the value in the variable feeling: "Chilly" if temp < -20, 
+'Frosty' if temp < 0, 'Cold' if temp < 10, "A little cool" if temp < 20, "It is warm now" if temp < 30, "It is hot now" if temp < 40, "Extremely hot" 
+if temp < 50, "Stay at home!" above +50)
+
+Solution
+const temp = 15;
+let feeling;
+if (temp < -20) {feeling = 'Chilly';}
+else if (temp < 0) {feeling = 'Frosty';}
+else if (temp < 10) {feeling = 'Cold';}
+else if (temp < 20) {feeling = 'A little cool';}
+else if (temp < 30) {feeling = 'It is warm now';}
+else if (temp < 40) {feeling = 'It is hot now';}
+else if (temp < 50) {feeling = 'Extremely hot';}
+else if (temp < 60) {feeling = 'Stay at home!';}
