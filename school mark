@@ -1,0 +1,18 @@
+Task
+school mark
+Since 1944, Russian schools have been using a digital five-point system for assessing student performance. 
+Score "5" ("Excellent"); Score "4" ("Good"); Score "3" ("Satisfactory"); Score "2" ("Unsatisfactory"); Score "1" ("Bad"). 
+The mark (number) is given. Get the verbal value of the mark.
+Create a score variable and assign it an integer value between 1 and 5. Create a mark variable to get the verbal value of the mark. 
+Using a sequence of nested if-else statements, get the mark variable to: 'Excellent' if score = 5, 'Good' if score = 4, 'Satisfactory' if score = 3, 
+'Unsatisfactory' if score = 2, 'Bad' if score = 1,
+
+
+Solution
+const score = 4;
+letmark;
+if (score === 5) {mark = 'Excellent';}
+else if (score === 4) {mark = 'Good';}
+else if (score === 3) {mark = 'Satisfactory';}
+else if (score === 2) {mark = 'Unsatisfactory';}
+else if (score === 1) {mark = 'Bad';}
