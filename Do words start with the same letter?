@@ -1,0 +1,12 @@
+Task
+Do words start with the same letter?
+Two words are given. If the words start with the same letter, then in the result variable get the value: 
+'start with the same letter', otherwise - 'start with different letters'.
+Create variables str1 and str2 and assign arbitrary string values to them. Using the ternary operator, 
+create a result variable and assign it the value: "start with the same letter" if the words start with the same letter, or "start with different letters" otherwise.
+
+
+Solution
+const str1 = 'hot';
+const str2 = 'hat';
+const result = (str1[0] === str2[0])? 'start with the same letter' : 'start with different letters';
